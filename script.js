@@ -3,6 +3,9 @@ let display = document.getElementById('display');
 function appendNumber(num) {
     display.value += num;
 }
+function appendNumber2(num) {
+    display.value += num;
+}
 
 function appendOperator(operator) {
     display.value += operator;
